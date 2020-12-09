@@ -1,7 +1,15 @@
 import React from 'react';
 import './App.css';
+import Statement from './Components/Statement'
+// import Image from './Components/Image'
+
 function App() {
-  return <h1>You Can Do This!</h1>;
+  return (
+    <div>
+      <Statement />
+      {/* <Image /> */}
+    </div>
+  )
 }
 
 export default App;
